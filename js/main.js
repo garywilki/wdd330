@@ -1,0 +1,13 @@
+const LINKS = [
+    {
+        label: "Week1 Notes",
+        url: "week1/index.html"
+    },
+    {
+        label: "Week2 Notes",
+        url: "week2/index.html"
+    }
+]; // links is a global array that contains objects.  Each object contains a set of properties
+
+// This will execute the function immediately.  Function must be loaded from a different javascript file.
+buildTableOfContents(LINKS, "contents");
