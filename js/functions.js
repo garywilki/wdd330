@@ -10,7 +10,6 @@ function buildTableOfContents(contents, tableClass) {
     }
     else if (contents.length == 0) {
         // Empty array is the default for a new week
-        code += "<li>Coming soon!</li>";
     }
     else {
          // Generate a list item for each object
