@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Story Writer</title>
+  <script>
+  </script>
+
+  <style>
+    body {
+      max-width: 400px;
+    }
+  </style>
+  
+  <script defer src="chaining.js"></script> <!-- Loads relevant constants and runs functions -->
+</head>
+
+<body>
+  <h1>Chaining Javascript Example</h1>
+  <p>A counter is incremented and decremted a certain number of times by calling methods on an object, returning a reference to the object, and then calling additional methods on the returned object.  This is known as "Chaining."</p>
+  <section>
+    <button onclick="ladder.up().up().down().up().showStep()">Execute Chain (+2)</button>
+    <button onclick="ladder.down().up().down().down().down().showStep()">Execute Chain (-3)</button>
+  </section>
+  <div class="output"></div>
+</body>
+</html>
