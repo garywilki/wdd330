@@ -1,0 +1,18 @@
+body {
+    background-color: #eee;
+}
+
+.tasks {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid;
+    margin: 20px;
+}
+
+.task, .task-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid;
+    padding: 10px;
+}
