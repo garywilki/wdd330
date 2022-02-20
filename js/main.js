@@ -22,6 +22,10 @@ const LINKS = [
     {
         label: "Week6 Notes (ToDo App)",
         url: "week6/index.html"
+    },
+    {
+        label: "Week7 Notes",
+        url: "week7/index.html"
     }
 ]; // links is a global array that contains objects.  Each object contains a set of properties
 
