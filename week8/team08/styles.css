@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+.box {
+    border: 2px solid #03045e;
+    padding: 1rem;
+}
+h1 {
+    color: #03045e;
+    margin: 0;
+    text-align: center;
+}
+li {
+    line-height: 2rem;
+    color: #0077b6;
+}
+.button-box { 
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    font-size: 17pt;
+    color: #03045e;
+    border: 2px solid;
+    border-radius: 2rem;
+    background-color: transparent;
+    padding: 1rem;
+    width: 45%;
+}
+button:hover {
+    background-color: #03045e;
+    color: white;
+}
+button:active {
+    background-color: #0077b6;
+}
+@media only screen and (min-width: 533px) {
+    .box {
+        width: 30rem;
+        margin: 0 auto;
+    }
+    ul {
+        margin-left: 4rem;
+    }
+}
